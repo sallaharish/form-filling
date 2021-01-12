@@ -1,0 +1,82 @@
+body{
+    background-color:#bfb784;
+    font: 1em/1.5 ;
+}
+h1{
+    text-align: center;
+    color:steelblue;
+    
+    font-size: 75px;
+    
+}
+#0{
+    font-size: 10px;
+}
+form{
+    
+    margin:20px auto;
+    width: 320px;
+    color:steelblue;
+}
+input{
+    padding: 10px;
+    font-size: inherit;
+}
+input[type="text"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background-color:#96b9d6;
+    
+}
+input[type="password"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+     background-color:#96b9d6;
+}
+input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+     background-color:#96b9d6;
+}
+}
+input[type="radio"]{
+    margin: 0px 8px 25px 18px;
+}
+input[type="checkbox"]{
+    margin:0px 8px 25px 18px;
+}
+input[type="radio"]:first-child{
+    margin-left: 0;
+}
+input[type="checkbox"]:first-child{
+    margin-left: 0;
+}
+input[type="submit"]{
+    width: 344px;
+    height: 45px;
+    border:none;
+    background-color: steelblue;
+    color: white;
+}
+input:focus{
+    background-color: white;
+}
+input[type="radio"]:checked+label{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+input[type="submit"]:focus{
+    width: 344px;
+    height: 45px;
+    border:none;
+    background-color: white;
+    color:steelblue;
+}
